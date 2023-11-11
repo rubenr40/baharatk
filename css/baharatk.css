@@ -1,0 +1,36 @@
+.navbar{
+     background-color: #aa0b0b;
+     color:#f7f783;  
+     /*-webkit-text-stroke-width: .1px;
+     -webkit-text-stroke-color: #dac2c2;*/
+     
+}
+#titulo{
+    color: #f7f783;
+    text-shadow:
+      3px 3px 0 #6b0404,
+      -3px 3px 0 #6b0404,
+      -3px -3px 0 #d12c2c,
+      3px -3px 0 #b11a1a;
+      margin-left: 10px;
+  }
+.logo {
+    max-height: 100px;
+    min-height: 10px;
+    border-radius: 65%;
+}
+
+
+.carouselItem{
+    height: 100rem;
+    width: 100rem;
+
+    /* para que se achique  */
+    flex-wrap: wrap; 
+    justify-content: space-around;
+}
+
+.logo1{
+    width: 160px;
+    height: 80px;
+}
